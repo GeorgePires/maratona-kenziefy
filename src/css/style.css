@@ -1,0 +1,298 @@
+/** RESET CSS**/
+
+body, main, 
+nav, section, 
+ul, li, 
+div, img, 
+figure, p, 
+header, h2{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    
+}
+
+
+/*********/
+
+body {
+    
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient( 0deg, #121212, #121212), #F1F1F1;
+    color: #F1F1F1;
+ 
+}
+
+/* MAIN & ASIDE */
+main{
+display: flex;
+flex-wrap: wrap;
+height: 100vh;
+
+}
+
+.menu {
+    width: 15.9%;
+    padding: 30px;
+    height: calc(100% - 167px);
+   
+}
+
+.menu > img{
+    margin-bottom: 25px;
+}
+
+.list-function{
+    font-size: 20.5px;
+}
+.list-function > li > a:hover {
+    color:#4175e693;
+  }
+
+
+.list-function > li{
+    margin-bottom: 17px;
+}
+.list-function > li > a{
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    text-decoration:none
+}
+.list-function > li > a > img{
+    width: 28px;
+    margin-right: 20px;
+}
+
+
+/* Topo & List de Musicas */
+
+.music-section{
+    width: 80%;
+    background-color: #181818;
+}
+.music-header{
+    background: url(../img/header3.png) no-repeat center/cover;
+    padding: 2rem 8rem;
+    height: 230px;
+    position: relative;
+    padding: 20px 80px;
+}
+
+
+
+/* USER */
+.user{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.user > img{
+    margin-right: 20px;
+}
+.user > h2{
+    font-weight: lighter;
+}
+
+/*Quantidade de musicas */
+
+.music_number{
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+}
+.music_number > p {
+    font-size: 23px;
+    font-weight: 300;
+
+}
+
+#btn-pause {
+    background-color: #4175e693;
+    color: #f1f1f1;
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-size: 25px;
+  
+    margin-bottom: 20px;
+    
+}
+#btn-pause:hover{
+    background-color: #3532f0d0;
+}
+
+.music-table{
+    padding: 25px  75px;
+}
+
+
+/* Informações music */
+
+.music-info{
+    background-color: #4175e693;
+    font-size: 18.5px;
+    color: white;
+    padding: 8px 56px; 
+}
+.music-info:hover{
+    background-color: #3532f0d0;
+}
+.music-info{
+    display: flex;
+    border-bottom: 2px ;
+    
+}
+.music-info > .item{
+    width: 60%;
+ 
+}
+.music-info > p{
+    width: 25%;
+}
+
+
+/* List Musicas static */
+.musiclist{
+    height: 500px;
+    overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/* BARRA */
+
+::-webkit-scrollbar {
+	width: 10px;
+	
+}
+
+::-webkit-scrollbar:hover{
+    color: #3532f0d0;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	display: none;
+}
+
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #4175e693;
+	border-radius: 5px;
+    width: 1px;
+    height: 2px;
+}
+
+
+
+/************************/
+
+.musiclist > li:hover{
+    color:#4175e693;
+    
+
+}
+
+.musiclist > li  {
+    display: flex;
+    padding: 8px 56px;
+    border-bottom: 1px solid #646464;
+
+}
+.musiclist > li > .name-music{
+    width: 60%;
+    
+}
+.musiclist> li > p {
+    width: 25%;
+
+}
+
+
+
+/*Player */
+
+.player{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.music-play{
+    display: flex;
+    align-items: center;
+}
+
+.img-play{
+    margin-right: 40px;
+}
+.img-play > img{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+
+}
+.img-play > figcaption{
+    display: none;
+}
+
+.info-play > h2{
+    margin-bottom: 8px;
+}
+
+
+
+/* controle e volume */
+
+.control> button{
+    width: 31px;
+    height: 31px;
+    background: transparent;
+    border: none;
+    background-position: center;
+    background-size: 23px;
+    background-repeat: no-repeat;
+}
+
+#btn-prev{
+    background-image: url(../img/previous.png);
+}
+
+#btn-next{
+    background-image: url(../img/next.png);
+}
+
+#btn-play{
+    background-image: url(../img/play.png);
+    background-size: cover;
+    margin: 0 20px;
+}
+
+#btn-play.pause{
+    background-image: url(../img/pause.png);
+}
+
+.vol{
+    background-image: url(../img/volume.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
+.vol{
+    color:#3532f0d0;;
+    border: none;
+}
+
+
+  
