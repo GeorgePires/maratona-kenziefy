@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kenziefy</title>
+    <link rel="shortcut icon" href="src/img/barra.png">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+    <main>  
+        <!-- Menu lateral -->
+        <aside class="menu">
+            <img src="src/img/logo.png" alt="Logo">
+            
+            <nav class="menu-function">
+                <!-- Funcionalidades/Menu-->
+                <ul class="list-function">
+                    <li>
+                        <a href="https://www.linkedin.com/in/georgeasp-pi/">
+                            <img src="src/img/icone1.png" alt="Home">
+                            Home 
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/georgeasp-pi/">
+                            <img src="src/img/icone2.png" alt="Browser">
+                            Browser 
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/GeorgePires">
+                            <img src="src/img/icone3.png" alt=" Library">
+                            Library 
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Topo & List de Musicas -->
+        <section class="music-section">
+            <header class="music-header">
+                <div class="user">
+                    <img src="src/img/user (1).png" alt="User">
+                    <h2>GeorgePires</h2>
+                </div>
+                
+                <div class="music_number">
+                </div>
+
+            </header>
+
+            <div class="music-table">
+                <button id="btn-pause"> Play </button>
+
+                <div class="music-info">
+                    <p class="item">TITLE</p>
+                    <p>ARTIST</p>
+                    <p>ALBUM</p>
+                </div>
+
+                <ul  class="musiclist">
+                    <!-- Lista de music-->
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="player">
+            <audio id="audio"src=""></audio>
+            <div class="music-play">
+                <figure class="img-play">
+                    <img id="img_cd" alt="img-album">
+                    <figcaption>legenda</figcaption>
+                </figure>
+
+                <div class="info-play">
+                    <h2 id="n_music">Hopeless</h2>
+                    <pi id="n_artist">Azizi Gibson</p>
+                </div>
+            </div>
+
+            <div class="control">
+                <button id="btn-prev"></button>
+                <button id="btn-play"></button>
+                <button id="btn-next"></button>
+            </div>
+
+            <div class="vol">
+                <!-- Barra de Volume -->
+                <input type="range" max="1" value="1" step="0.1" >
+            </div>
+        </section>
+    </main> 
+
+    <script type="text/javascript" src="src/script/index.js"></script>
+    
+</body>
+</html>
