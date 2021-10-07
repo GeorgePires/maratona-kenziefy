@@ -4,7 +4,7 @@ Projeto desenvolvido na IV Edicão da Maratona Zero ao Código, promovida pela K
 <br>
 
 <p align="center">
-  <img alt="KenzieFy" src="./src/img/Layout.png" width="100%">
+  <img alt="KenzieFy" src="./src/img/layout.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
