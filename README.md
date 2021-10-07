@@ -1,5 +1,5 @@
 # Kenziefy
-Projeto desenvolvido na IV Edicão da Maratona Zero ao Código, promovida pela Kenzie Academy Brasil.
+Projeto desenvolvido na IV Edição da Maratona Zero ao Código, promovida pela Kenzie Academy Brasil.
 
 <br>
 
