@@ -15,45 +15,37 @@ header, h2{
     list-style: none;
     
 }
-
-
-/*********/
+/********************************/
 
 body {
-    
     font-family: 'Rubik', sans-serif;
     background: linear-gradient( 0deg, #121212, #121212), #F1F1F1;
     color: #F1F1F1;
- 
 }
 
-/* MAIN & ASIDE */
+/* MAIN */
 main{
 display: flex;
 flex-wrap: wrap;
 height: 100vh;
 
 }
-
 .menu {
-    width: 15.9%;
+    width: 15%;
     padding: 30px;
-    height: calc(100% - 167px);
-   
+    height: calc(100% - 167px); 
 }
-
 .menu > img{
     margin-bottom: 25px;
 }
 
+/* ASIDE */
 .list-function{
     font-size: 20.5px;
 }
 .list-function > li > a:hover {
     color:#4175e693;
   }
-
-
 .list-function > li{
     margin-bottom: 17px;
 }
@@ -69,7 +61,7 @@ height: 100vh;
 }
 
 
-/* Topo & List de Musicas */
+/* Capa & List de Musicas */
 
 .music-section{
     width: 80%;
@@ -82,8 +74,6 @@ height: 100vh;
     position: relative;
     padding: 20px 80px;
 }
-
-
 
 /* USER */
 .user{
@@ -111,7 +101,7 @@ height: 100vh;
     font-weight: 300;
 
 }
-
+/* BTN PAUSE PRINCIPAL */
 #btn-pause {
     background-color: #4175e693;
     color: #f1f1f1;
@@ -133,7 +123,7 @@ height: 100vh;
 }
 
 
-/* Informações music */
+/* iNFO MUSICAS */
 
 .music-info{
     background-color: #4175e693;
@@ -158,15 +148,35 @@ height: 100vh;
 }
 
 
-/* List Musicas static */
+/* List Musicas  */
 .musiclist{
     height: 500px;
     overflow-y: scroll;
 	overflow-x: hidden;
 }
 
+.musiclist > li:hover{
+    color:#4175e693;
+    
 
-/* BARRA */
+}
+
+.musiclist > li  {
+    display: flex;
+    padding: 8px 56px;
+    border-bottom: 1px solid #646464;
+
+}
+.musiclist > li > .name-music{
+    width: 60%;
+    
+}
+.musiclist> li > p {
+    width: 25%;
+
+}
+
+/* BARRA DE ROLAGEM */
 
 ::-webkit-scrollbar {
 	width: 10px;
@@ -190,30 +200,7 @@ height: 100vh;
     height: 2px;
 }
 
-
-
 /************************/
-
-.musiclist > li:hover{
-    color:#4175e693;
-    
-
-}
-
-.musiclist > li  {
-    display: flex;
-    padding: 8px 56px;
-    border-bottom: 1px solid #646464;
-
-}
-.musiclist > li > .name-music{
-    width: 60%;
-    
-}
-.musiclist> li > p {
-    width: 25%;
-
-}
 
 
 
@@ -253,7 +240,7 @@ height: 100vh;
 
 
 
-/* controle e volume */
+/* Controles e volume */
 
 .control> button{
     width: 31px;

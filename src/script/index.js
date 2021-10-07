@@ -194,12 +194,11 @@ function playlist(music, musicId) {
 }
 
 for(let cont = 0; cont < baseMusic.length; cont++) {
-    //console.log(baseMusic[cont]);
     playlist(baseMusic[cont], cont)
 }
 
 
-//SELECÃO ::: EM BREVE   ////////////////////////
+//SELECÃO ::: EM BREVE   ////
 
 
 
